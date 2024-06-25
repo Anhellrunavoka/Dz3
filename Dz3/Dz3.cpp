@@ -2,6 +2,7 @@
 #include <Windows.h> 
 #include <fstream>
 #include <string>
+#include <algorithm>
 #include "Words.h"
 #include "Translate.h"
 using namespace std;
@@ -92,5 +93,6 @@ int main() {
 		cin >> user;
 		if (user == 1) words();
 		else if (user == 2) translate();
+		cout<<"End";
 		return 0;
 }
